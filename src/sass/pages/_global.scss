@@ -1,0 +1,53 @@
+/* *, *::before, *::after {
+  box-sizing: border-box;
+}*/
+
+body {
+  margin: 0;
+  background: lighten(#000, 90%);
+  // font-family: $font-text;
+  font-size: 14px;
+  line-height: 1.7;
+  // font-weight: $font-normal;
+  // color: $color-dark;
+}
+
+/*.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+} */
+
+// items navbar menu_icons
+
+
+.top-bar-price {
+  border-style: none;
+}
+
+.top-bar-icons {
+  width: 30px;
+  height: 30px;
+}
+
+
+.table_icons {
+  //display: none;
+  width: 20px;
+  height: 20px;
+}
+
+.calendar-icon {
+  //display: none;
+  width: 20px;
+  height: 20px;
+}
+
+
+.table_icons:hover {
+  display: block;
+}
+
+td {
+  border-bottom: 1px solid #000;
+}
