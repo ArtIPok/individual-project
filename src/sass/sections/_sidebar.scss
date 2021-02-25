@@ -8,6 +8,7 @@
   color: #FFF;
   font-family: $navbar-font;
   font-size: 8px;
+
   svg {
     width: 8px;
     height: 8px;
@@ -15,6 +16,7 @@
     margin-left: -45px;
     transform: translateY(1px);
   }
+
   p {
     margin: 0;
   }
@@ -89,6 +91,7 @@
   margin-top: 280px;
   margin-left: 35px;
   line-height: 25px;
+
   svg {
     width: 12px;
     height: 12px;
@@ -117,4 +120,47 @@
 
 .quit {
   text-align: center;
+}
+
+.table {
+  margin-left: 90px;
+
+  table {
+    border-collapse: collapse;
+  }
+
+  tr {
+    font-size: 8px;
+    color: $color-font;
+
+    &:hover {
+      background-color: #e6e6e6;
+      // display: block;
+    }
+  }
+
+  td {
+    width: 120px;
+    height: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+
+    &.col-icons {
+      text-align: center;
+    }
+  }
+}
+
+.table_icons {
+  // display: none;
+  margin-left: 10px;
+  fill: red;
+  width: 10px;
+  height: 10px;
+}
+
+.calendar-icon {
+  //display: none;
+  width: 20px;
+  height: 20px;
 }
