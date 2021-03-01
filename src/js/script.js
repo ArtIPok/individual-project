@@ -33,6 +33,15 @@ const chart = new Chart(ctx, {
       hidden: true,
     }]
   },
+  options: {
+    title: {
+      display: true,
+      text: 'Earnings chart',
+      position: 'top',
+      fontColor: '#60b4e4',
+      fontStyle: 'italic',
+    }
+  },
 });
 console.log(chart);
 
