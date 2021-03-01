@@ -29,7 +29,7 @@ canvas {
 }
 
 .button-add {
-  margin: 20px 0 20px 200px;
+  margin: 20px 0 20px 220px;
 
   button {
     width: 70px;
@@ -48,7 +48,7 @@ canvas {
 }
 
 .table {
-  margin-left: 70px;
+  margin-left: 80px;
 
   table {
     border-collapse: collapse;
@@ -68,14 +68,14 @@ canvas {
   }
 
   td {
-    width: 120px;
+    width: 140px;
     height: 20px;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
 
     &.col-icons {
       text-align: center;
-      width: 80px;
+      width: 100px;
     }
   }
 }
@@ -95,26 +95,67 @@ canvas {
   width: 10px;
   height: 10px;
   margin: 0 10px;
+  fill: #FFF;
+  margin-top: 2px;
 }
 
 .date-first {
   color: $color-font;
   font-size: $size-fontParagraph;
-  margin-left: 150px;
-  padding: 8px 20px;
-  border: 1px solid #e6e6e6;
+  border-style: none;
 }
 
 .date-second {
   color: $color-font;
   font-size: $size-fontParagraph;
-  margin-left: 1700px;
-  padding: 8px 30px;
-  border: 1px solid #e6e6e6;
+  border-style: none;
 }
 
 .chart {
-  max-width: 70%;
-  margin-left: 20px;
-  height: 200px;
+  max-width: 80%;
+  margin-left: 40px;
+}
+
+.statistics {
+  margin: 20px 0 20px 60px;
+  border-collapse: collapse;
+
+  td {
+    width: 140px;
+    height: 20px;
+    border: 1px solid #e6e6e6;
+
+    &.column-two {
+      width: 60px;
+      text-align: center;
+      color: #000;
+    }
+  }
+}
+
+.date {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.table-date {
+  margin: 20px 0 20px 100px;
+  border-collapse: collapse;
+
+  tr {
+    font-size: $size-fontParagraph;
+    color: $color-font;
+  }
+
+  td {
+    width: 120px;
+    height: 20px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+
+    &.icon-refresh {
+      width: 30px;
+      text-align: center;
+      background-color: #60b4e4;
+    }
+  }
 }
