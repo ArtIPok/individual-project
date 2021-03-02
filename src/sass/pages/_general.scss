@@ -24,12 +24,8 @@
   margin-left: 5px;
 }
 
-canvas {
-  // background-color: #FFF;
-}
-
 .button-add {
-  margin: 20px 0 20px 220px;
+  margin: 20px 0 20px 200px;
 
   button {
     width: 70px;
@@ -48,7 +44,7 @@ canvas {
 }
 
 .table {
-  margin-left: 80px;
+  margin-left: 40px;
 
   table {
     border-collapse: collapse;
@@ -112,16 +108,18 @@ canvas {
 }
 
 .chart {
-  max-width: 80%;
-  margin-left: 40px;
+  max-width: 70%;
+  margin-left: 30px;
 }
 
 .statistics {
-  margin: 20px 0 20px 60px;
+  margin: 20px 0 20px 40px;
   border-collapse: collapse;
+  font-size: $size-fontParagraph;
+  color: $color-font;
 
   td {
-    width: 140px;
+    width: 120px;
     height: 20px;
     border: 1px solid #e6e6e6;
 
@@ -138,7 +136,7 @@ canvas {
 }
 
 .table-date {
-  margin: 20px 0 20px 100px;
+  margin: 20px 0 20px 80px;
   border-collapse: collapse;
 
   tr {
@@ -157,5 +155,37 @@ canvas {
       text-align: center;
       background-color: #60b4e4;
     }
+  }
+}
+
+.top-bar {
+  font-size: 12px;
+  margin: 10px 0 10px 160px;
+}
+
+.top-bar-icons {
+  width: 14px;
+  height: 14px;
+  fill: #60b4e4;
+}
+
+span {
+  font-size: 10px;
+  color: #60b4e4;
+}
+
+@media (min-width: 767px) {
+
+  .top-bar-sidebar {
+    display: none;
+  }
+
+  .top-bar {
+    display: block;
+  }
+
+  .chart {
+    max-width: 90%;
+    margin-left: 10px;
   }
 }
